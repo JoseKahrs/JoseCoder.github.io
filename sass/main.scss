@@ -1,3 +1,25 @@
+/* Normalize reset */
 @import 'normalize';
+
+/* Variables fuentes y colores */
+@import 'colors';
+@import 'fonts';
+
+/* Background */
 @import 'background';
+
+/* Header menu desktop y mobile */
 @import 'header';
+
+/* Main para desktop y mobile */
+@import 'main';
+
+/* Section para desktop y mobile */
+@import 'section';
+
+/* Footer para desktop y mobile */
+@import 'footer';
+
+/* Media queries responsive */
+@import 'resposive';
+
