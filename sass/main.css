@@ -391,6 +391,10 @@ body {
 }
 
 /* Header menu desktop y mobile */
+.header {
+  display: flex;
+}
+
 /* Main para desktop y mobile */
 /* Section para desktop y mobile */
 /* Footer para desktop y mobile */
