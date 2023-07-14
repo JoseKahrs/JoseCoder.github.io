@@ -10,6 +10,7 @@
         flex-grow: 1;
         align-self: baseline;
         & h1 a{
+            letter-spacing: 5px;
             text-decoration: none;
             color: white;
         }
@@ -21,6 +22,7 @@
         & ul li {
             display: inline-block;
             a {
+                letter-spacing: 3px;
                 text-decoration: none;
                 color: white;
                 padding-left: 80px;

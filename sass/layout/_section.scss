@@ -1,4 +1,6 @@
 .section {
+    background-color: rgba(223, 205, 180, 0.5);
+    border-radius: 5px;
     color: white;
     margin: 40px 20px;
     padding: 10px;
@@ -9,7 +11,7 @@
     align-items: center;
     &__item {
         h2 {
-            letter-spacing: 2px;
+            letter-spacing: 3px;
             margin-left: 50px;
         }
         a{
@@ -19,6 +21,6 @@
         }
     }
     &__table {
-        /* ESTILOS TABLA DE BEBIDAS */
+        color: white;
     }
 }

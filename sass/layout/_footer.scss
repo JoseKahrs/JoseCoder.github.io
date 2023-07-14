@@ -11,8 +11,10 @@
         }
     }
     &__logo {
-        text-decoration: none;
-        letter-spacing: 3px;
+        a {
+            text-decoration: none;
+            letter-spacing: 3px;
+        }
     }
     &__copy {
         padding-right: 20px;

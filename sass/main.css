@@ -4,6 +4,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
@@ -380,6 +381,10 @@ th {
 /* Variables fuentes */
 /* Encabezados */
 /* Body */
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 /* Background */
 body {
   background-image: url(../img/background.jpg);
@@ -403,6 +408,7 @@ body {
   align-self: baseline;
 }
 .header__logo h1 a {
+  letter-spacing: 5px;
   text-decoration: none;
   color: white;
 }
@@ -415,6 +421,7 @@ body {
   display: inline-block;
 }
 .header__menuNav ul li a {
+  letter-spacing: 3px;
   text-decoration: none;
   color: white;
   padding-left: 80px;
@@ -422,6 +429,8 @@ body {
 
 /* Main para desktop y mobile */
 .main__section {
+  background-color: rgba(223, 205, 180, 0.5);
+  border-radius: 5px;
   color: white;
   margin: 40px 20px;
   padding: 10px;
@@ -435,10 +444,11 @@ body {
   /* CONFIGURACION ESTILOS FORMULARIO */
 }
 .main__section__form h2 {
+  letter-spacing: 3px;
   margin-left: 50px;
 }
 .main__section__item1 h2 {
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   margin-left: 50px;
 }
 .main__section__item1 a {
@@ -446,9 +456,16 @@ body {
   float: right;
   margin-right: 50px;
 }
+.main__section__item2 img {
+  width: 600px;
+  height: auto;
+  border-radius: 5px;
+}
 
 /* Section para desktop y mobile */
 .section {
+  background-color: rgba(223, 205, 180, 0.5);
+  border-radius: 5px;
   color: white;
   margin: 40px 20px;
   padding: 10px;
@@ -459,7 +476,7 @@ body {
   align-items: center;
 }
 .section__item h2 {
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   margin-left: 50px;
 }
 .section__item a {
@@ -468,7 +485,7 @@ body {
   margin-right: 50px;
 }
 .section__table {
-  /* ESTILOS TABLA DE BEBIDAS */
+  color: white;
 }
 
 /* Footer para desktop y mobile */
@@ -483,7 +500,7 @@ body {
   text-decoration: none;
   padding-left: 20px;
 }
-.footer__logo {
+.footer__logo a {
   text-decoration: none;
   letter-spacing: 3px;
 }
@@ -491,4 +508,15 @@ body {
   padding-right: 20px;
 }
 
-/* Media queries responsive *//*# sourceMappingURL=main.css.map */
+/* Media queries responsive */
+/* Grid para catalogo de img */
+.gridcontenedor {
+  margin: 40px 30px;
+  display: grid;
+  gap: 40px;
+  justify-content: center;
+}
+.gridcontenedor__item img {
+  border-radius: 25px;
+  padding: 20px;
+}/*# sourceMappingURL=main.css.map */

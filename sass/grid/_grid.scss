@@ -1,0 +1,13 @@
+.gridcontenedor {
+    margin: 40px 30px;
+    display: grid;
+    gap: 40px;
+    justify-content: center;
+    &__item {
+        img {
+            border-radius: 25px;
+            padding: 20px;
+    
+        }
+    }
+}
