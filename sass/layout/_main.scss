@@ -1,0 +1,27 @@
+.main__section {
+    color: white;
+    margin: 40px 20px;
+    padding: 10px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    &__form {
+        flex-direction: column;
+        /* CONFIGURACION ESTILOS FORMULARIO */
+        h2 {
+            margin-left: 50px;
+        }
+    }
+    &__item1 {
+        h2 {
+            letter-spacing: 2px;
+            margin-left: 50px;
+        }
+        a {
+            text-decoration: none;
+            float: right;
+            margin-right: 50px;
+        }
+    }
+}

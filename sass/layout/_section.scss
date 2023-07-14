@@ -1,0 +1,24 @@
+.section {
+    color: white;
+    margin: 40px 20px;
+    padding: 10px;
+    display: flex;
+    gap: 40px;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    &__item {
+        h2 {
+            letter-spacing: 2px;
+            margin-left: 50px;
+        }
+        a{
+            text-decoration: none;
+            float: right;
+            margin-right: 50px;
+        }
+    }
+    &__table {
+        /* ESTILOS TABLA DE BEBIDAS */
+    }
+}

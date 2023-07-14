@@ -257,7 +257,6 @@ button,
 html input[type=button],
 input[type=reset],
 input[type=submit] {
-  -webkit-appearance: button; /* 2 */
   cursor: pointer; /* 3 */
 }
 
@@ -314,8 +313,7 @@ input[type=number]::-webkit-outer-spin-button {
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
  *    (include `-moz` to future-proof).
  */
-input[type=search] {
-  -webkit-appearance: textfield; /* 1 */ /* 2 */
+input[type=search] { /* 2 */
   box-sizing: content-box;
 }
 
@@ -392,10 +390,105 @@ body {
 
 /* Header menu desktop y mobile */
 .header {
+  margin: auto 60px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  align-items: center;
+  justify-items: center;
+}
+.header__logo {
+  flex-grow: 1;
+  align-self: baseline;
+}
+.header__logo h1 a {
+  text-decoration: none;
+  color: white;
+}
+.header__menuNav {
+  flex-grow: 2;
+  align-self: baseline;
+  text-align: end;
+}
+.header__menuNav ul li {
+  display: inline-block;
+}
+.header__menuNav ul li a {
+  text-decoration: none;
+  color: white;
+  padding-left: 80px;
 }
 
 /* Main para desktop y mobile */
+.main__section {
+  color: white;
+  margin: 40px 20px;
+  padding: 10px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.main__section__form {
+  flex-direction: column;
+  /* CONFIGURACION ESTILOS FORMULARIO */
+}
+.main__section__form h2 {
+  margin-left: 50px;
+}
+.main__section__item1 h2 {
+  letter-spacing: 2px;
+  margin-left: 50px;
+}
+.main__section__item1 a {
+  text-decoration: none;
+  float: right;
+  margin-right: 50px;
+}
+
 /* Section para desktop y mobile */
+.section {
+  color: white;
+  margin: 40px 20px;
+  padding: 10px;
+  display: flex;
+  gap: 40px;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.section__item h2 {
+  letter-spacing: 2px;
+  margin-left: 50px;
+}
+.section__item a {
+  text-decoration: none;
+  float: right;
+  margin-right: 50px;
+}
+.section__table {
+  /* ESTILOS TABLA DE BEBIDAS */
+}
+
 /* Footer para desktop y mobile */
+.footer {
+  margin: auto 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+}
+.footer__nav a {
+  text-decoration: none;
+  padding-left: 20px;
+}
+.footer__logo {
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+.footer__copy {
+  padding-right: 20px;
+}
+
 /* Media queries responsive *//*# sourceMappingURL=main.css.map */
