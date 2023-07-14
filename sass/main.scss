@@ -1,25 +1,25 @@
 /* Normalize reset */
-@import 'normalize';
+@import "../sass/base/normalize";
 
 /* Variables fuentes y colores */
-@import 'colors';
-@import 'fonts';
+@import "../sass/base/colors";
+@import "../sass/base/fonts";
 
 /* Background */
-@import 'background';
+@import "../sass/base/background";
 
 /* Header menu desktop y mobile */
-@import 'header';
+@import "../sass/layout/header";
 
 /* Main para desktop y mobile */
-@import 'main';
+@import "../sass/layout/main";
 
 /* Section para desktop y mobile */
 @import 'section';
 
 /* Footer para desktop y mobile */
-@import 'footer';
+@import "../sass/layout/footer";
 
 /* Media queries responsive */
-@import 'resposive';
+@import "../sass/layout/responsive";
 
