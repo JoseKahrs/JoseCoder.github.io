@@ -394,8 +394,9 @@ body {
 }
 
 /* Header menu desktop y mobile */
+/* ESTILOS PARA VISTA DESKTOP <1200px */
 .header {
-  margin: auto 60px;
+  margin: 0px 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -407,7 +408,7 @@ body {
   flex-grow: 1;
   align-self: baseline;
 }
-.header__logo h1 a {
+.header__logo h2 a {
   letter-spacing: 5px;
   text-decoration: none;
   color: white;
@@ -424,12 +425,12 @@ body {
   letter-spacing: 3px;
   text-decoration: none;
   color: white;
-  padding-left: 80px;
+  padding-left: 60px;
 }
 
 /* Main para desktop y mobile */
 .main__section {
-  background-color: rgba(223, 205, 180, 0.5);
+  background: linear-gradient(90deg, rgba(223, 205, 180, 0.7) 40%, rgba(223, 205, 180, 0));
   border-radius: 5px;
   color: white;
   margin: 40px 20px;
@@ -444,17 +445,27 @@ body {
   /* CONFIGURACION ESTILOS FORMULARIO */
 }
 .main__section__form h2 {
+  color: rgba(188, 125, 49, 0.6);
+}
+.main__section__form h2 {
+  letter-spacing: 3px;
+  margin-left: 50px;
+}
+.main__section__item1 h1 {
+  color: rgba(188, 125, 49, 0.6);
   letter-spacing: 3px;
   margin-left: 50px;
 }
 .main__section__item1 h2 {
   letter-spacing: 3px;
   margin-left: 50px;
+  color: rgba(188, 125, 49, 0.6);
 }
 .main__section__item1 a {
   text-decoration: none;
   float: right;
   margin-right: 50px;
+  color: rgb(152, 132, 104);
 }
 .main__section__item2 img {
   width: 600px;
@@ -464,7 +475,7 @@ body {
 
 /* Section para desktop y mobile */
 .section {
-  background-color: rgba(223, 205, 180, 0.5);
+  background: linear-gradient(270deg, rgba(223, 205, 180, 0.7) 40%, rgba(223, 205, 180, 0));
   border-radius: 5px;
   color: white;
   margin: 40px 20px;
@@ -478,11 +489,13 @@ body {
 .section__item h2 {
   letter-spacing: 3px;
   margin-left: 50px;
+  color: rgba(188, 125, 49, 0.8);
 }
 .section__item a {
   text-decoration: none;
   float: right;
   margin-right: 50px;
+  color: rgb(152, 132, 104);
 }
 .section__table {
   color: white;
@@ -499,16 +512,16 @@ body {
 .footer__nav a {
   text-decoration: none;
   padding-left: 20px;
+  color: rgba(188, 125, 49, 0.7);
 }
 .footer__logo a {
   text-decoration: none;
   letter-spacing: 3px;
+  color: rgba(188, 125, 49, 0.7);
 }
 .footer__copy {
   padding-right: 20px;
-}
-
-/* Media queries responsive */
+} /* Media queries responsive */
 /* Grid para catalogo de img */
 .gridcontenedor {
   margin: 40px 30px;
@@ -519,4 +532,9 @@ body {
 .gridcontenedor__item img {
   border-radius: 25px;
   padding: 20px;
+}
+
+/* Bases generales */
+* p {
+  text-indent: 40px;
 }/*# sourceMappingURL=main.css.map */
