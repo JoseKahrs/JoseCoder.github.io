@@ -21,7 +21,27 @@
             color: rgb(152,132,104);
         }
     }
-    &__table {
-        color: white;
-    }
 }
+/* EDITAR TABLA */
+.section-table {
+        display: flex;
+        justify-content: center;
+        width: 800px;
+        caption {
+            text-align: center;
+            font-size: 23px;
+            letter-spacing: 3px;
+            font-weight: bold;
+            color: rgba(188, 125, 49, 0.8);
+        }
+        th {
+            text-align: center;
+            padding:auto 20px;
+            color: rgb(152,132,104);
+        }
+        td {
+            text-align: left;
+            padding: auto 20px;
+        }
+
+    }

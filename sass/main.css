@@ -396,7 +396,7 @@ body {
 /* Header menu desktop y mobile */
 /* ESTILOS PARA VISTA DESKTOP <1200px */
 .header {
-  margin: 0px 40px;
+  margin: auto 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -425,7 +425,7 @@ body {
   letter-spacing: 3px;
   text-decoration: none;
   color: white;
-  padding-left: 60px;
+  padding-left: 40px;
 }
 
 /* Main para desktop y mobile */
@@ -452,7 +452,7 @@ body {
   margin-left: 50px;
 }
 .main__section__item1 h1 {
-  color: rgba(188, 125, 49, 0.6);
+  color: rgba(212, 136, 43, 0.8);
   letter-spacing: 3px;
   margin-left: 50px;
 }
@@ -497,8 +497,28 @@ body {
   margin-right: 50px;
   color: rgb(152, 132, 104);
 }
-.section__table {
-  color: white;
+
+/* EDITAR TABLA */
+.section-table {
+  display: flex;
+  justify-content: center;
+  width: 800px;
+}
+.section-table caption {
+  text-align: center;
+  font-size: 23px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  color: rgba(188, 125, 49, 0.8);
+}
+.section-table th {
+  text-align: center;
+  padding: auto 20px;
+  color: rgb(152, 132, 104);
+}
+.section-table td {
+  text-align: left;
+  padding: auto 20px;
 }
 
 /* Footer para desktop y mobile */
@@ -524,14 +544,15 @@ body {
 } /* Media queries responsive */
 /* Grid para catalogo de img */
 .gridcontenedor {
-  margin: 40px 30px;
+  margin: 60px 10px;
   display: grid;
-  gap: 40px;
   justify-content: center;
+}
+.gridcontenedor__item {
+  margin: 20px auto;
 }
 .gridcontenedor__item img {
   border-radius: 25px;
-  padding: 20px;
 }
 
 /* Bases generales */
