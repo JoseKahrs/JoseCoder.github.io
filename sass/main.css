@@ -5,6 +5,7 @@
  *    user zoom.
  */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap");
 html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
@@ -385,6 +386,10 @@ th {
   font-family: "Poppins", sans-serif;
 }
 
+* h1 {
+  font-family: "Lato", sans-serif;
+}
+
 /* Background */
 body {
   background-image: url(../img/background.jpg);
@@ -471,6 +476,18 @@ body {
   width: 600px;
   height: auto;
   border-radius: 5px;
+}
+
+.mainH1 {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 40%, rgba(0, 0, 0, 0));
+  border-radius: 5px;
+  color: white;
+  margin: 40px 20px;
+  padding: 10px;
+}
+.mainH1 h1 {
+  letter-spacing: 3px;
+  margin-left: 50px;
 }
 
 /* Section para desktop y mobile */
