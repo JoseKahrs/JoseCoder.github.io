@@ -384,7 +384,7 @@ th {
 /* HIPERVINCULOS */
 /* TEXTO */
 /* BACKGROUND */
-* {
+* body {
   font-family: "Poppins", sans-serif !important;
 }
 
@@ -447,6 +447,18 @@ body {
   color: rgba(238, 166, 59, 0.7);
 }
 
+.navbar {
+  display: none;
+}
+
+@media (min-widht: 0px) and (max-widht: 1024) {
+  .header {
+    display: none;
+  }
+  .navbar {
+    display: flex;
+  }
+}
 /* Main para desktop y mobile */
 /* Variables de colores */
 /* Variables fuentes */
@@ -454,6 +466,32 @@ body {
 /* HIPERVINCULOS */
 /* TEXTO */
 /* BACKGROUND */
+@keyframes animacionImg {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes introH1 {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.3;
+  }
+  40% {
+    transform: scale(0.9);
+    opacity: 0.55;
+  }
+  80% {
+    transform: scale(1.02);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
 .main__section {
   background: linear-gradient(90deg, rgba(143, 121, 94, 0.5) 40%, rgba(223, 205, 180, 0));
   border-radius: 5px;
@@ -466,39 +504,14 @@ body {
   align-items: center;
 }
 .main__section__form fieldset {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  border: none;
 }
 .main__section__form h2 {
-  color: rgb(233, 215, 191);
   letter-spacing: 3px;
-  margin-left: 50px;
+  color: rgb(233, 215, 191);
 }
 .main__section__form h2::first-letter {
   font-size: 30px;
-}
-.main__section__form legend {
-  padding-left: 25px;
-}
-.main__section__form div label {
-  padding: 10px;
-}
-.main__section__form div input {
-  margin-top: 20px;
-}
-.main__section__form div input::-moz-placeholder {
-  color: rgb(152, 132, 104);
-}
-.main__section__form div input::placeholder {
-  color: rgb(152, 132, 104);
-}
-.main__section__form div textarea::-moz-placeholder {
-  color: rgb(152, 132, 104);
-}
-.main__section__form div textarea::placeholder {
-  color: rgb(152, 132, 104);
 }
 .main__section__item1 h2 {
   letter-spacing: 3px;
@@ -524,10 +537,17 @@ body {
 .main__section__item1 p::first-letter {
   font-size: 30px;
 }
+.main__section__item2 {
+  animation: animacionImg 1s linear;
+}
 .main__section__item2 img {
   width: 600px;
   height: auto;
   border-radius: 5px;
+}
+.main__section__item2 img:hover {
+  transform: scale(1.1);
+  transition: all 1s;
 }
 
 .mainH1 {
@@ -540,6 +560,7 @@ body {
   color: white;
   letter-spacing: 3px;
   margin-left: 50px;
+  animation: introH1 0.5s linear;
 }
 .mainH1 h1::first-letter {
   font-size: 50px;
@@ -547,6 +568,32 @@ body {
 }
 
 /* Section para desktop y mobile */
+@keyframes animacionImg {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes introH1 {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.3;
+  }
+  40% {
+    transform: scale(0.9);
+    opacity: 0.55;
+  }
+  80% {
+    transform: scale(1.02);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
 .section {
   background: linear-gradient(270deg, rgba(143, 121, 94, 0.5) 40%, rgba(223, 205, 180, 0));
   border-radius: 5px;
@@ -615,6 +662,11 @@ body {
   padding: auto 20px;
   color: rgb(152, 132, 104);
 }
+.section-table tr:hover {
+  background-color: rgba(238, 166, 59, 0.7);
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
 .section-table td {
   background-color: rgba(233, 215, 191, 0.5);
   border-radius: 3px;
@@ -667,8 +719,42 @@ body {
 .gridcontenedor__item img {
   border-radius: 25px;
 }
+.gridcontenedor__item img:hover {
+  box-shadow: 0 10px 10px 0;
+  color: rgba(143, 121, 94, 0.7);
+  transform: translateY(-25px);
+  transition: all 0.5s;
+}
 
 /* Bases generales */
 * p {
   text-indent: 40px;
+}
+
+/* Animaciones */
+@keyframes animacionImg {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes introH1 {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.3;
+  }
+  40% {
+    transform: scale(0.9);
+    opacity: 0.55;
+  }
+  80% {
+    transform: scale(1.02);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }/*# sourceMappingURL=main.css.map */

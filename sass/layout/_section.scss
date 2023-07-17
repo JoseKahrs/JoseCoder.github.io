@@ -1,3 +1,5 @@
+@import "../base/animaciones";
+
 .section {
     background: linear-gradient(270deg, rgba(143,121,94,0.5) 40%,rgba(223, 205, 180, 0));    
     border-radius: 5px;
@@ -65,6 +67,13 @@
             text-align: center;
             padding:auto 20px;
             color: $colorHiper;
+        }
+        tr {
+            &:hover {
+                background-color: rgba(238,166,59,0.7);
+                transform: scale(1.1);
+                transition: all 0.5s;
+            }
         }
         td {
             background-color: $coloHiperBg;

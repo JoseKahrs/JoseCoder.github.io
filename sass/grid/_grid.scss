@@ -6,6 +6,12 @@
         margin: 20px auto;
         img {
             border-radius: 25px;
+            &:hover {
+                box-shadow: 0 10px 10px 0;
+                color: rgba(143,121,94,0.7);
+                transform: translateY(-25px);
+                transition: all 0.5s;
+            }
         }
     }
 }

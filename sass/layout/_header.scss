@@ -39,3 +39,16 @@
     }
 }
 
+.navbar {
+    display: none;
+}
+
+@media (min-widht: 0px) and (max-widht: 1024) {
+    .header {
+        display: none;
+    }
+    .navbar {
+        display: flex;
+    }
+}
+

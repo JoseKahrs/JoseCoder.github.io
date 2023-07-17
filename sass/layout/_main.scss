@@ -1,4 +1,5 @@
 @import "../base/colors";
+@import "../base/animaciones";
 
 .main__section {
     background: linear-gradient(90deg, rgba(143,121,94,0.5) 40%,rgba(223, 205, 180, 0));
@@ -12,41 +13,17 @@
     align-items: center;
     &__form {
         fieldset {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            border: none;
         }
-            h2 {
-                color: $colorTitulo;
-                letter-spacing: 3px;
-                margin-left: 50px;
-               &::first-letter {
+        h2 {
+            letter-spacing: 3px;
+            color: $colorTitulo;
+            &::first-letter {
                 font-size: 30px;
-               }
             }
-            legend {
-                padding-left: 25px;
-                
-            }
-            div {
-                label {
-                    padding: 10px;
-                }
-                input {
-                    margin-top: 20px;
-                    &::placeholder {
-                        color: $colorHiper;
-                    }
-                }
-                textarea {
-                    &::placeholder {
-                        color: $colorHiper;
-                    }
-                }
-            }
-
-    }
+        }
+        
+    }   
     &__item1 {
         h2 {
             letter-spacing: 3px;
@@ -76,13 +53,19 @@
         }
     }
     &__item2 {
+        animation: animacionImg 1s linear;
         img {
             width: 600px;
             height: auto;
             border-radius: 5px;
+            &:hover {
+                transform: scale(1.1);
+                transition: all 1s;
+            }
         }
     }
 }
+
 
 .mainH1 {
     background: linear-gradient(340deg, rgba(233,215,191, 0.5) 40%,rgba(94, 71, 42, 0.5));    
@@ -93,6 +76,7 @@
         color: white;
         letter-spacing: 3px;
         margin-left: 50px;
+        animation: introH1 0.5s linear;
         &::first-letter {
             font-size: 50px;
             color: $colorTitulo;
