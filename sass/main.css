@@ -380,8 +380,10 @@ th {
 /* Variables fuentes y colores */
 /* Variables de colores */
 /* Variables fuentes */
-/* Encabezados */
-/* Body */
+/* Titutales y encabezados */
+/* HIPERVINCULOS */
+/* TEXTO */
+/* BACKGROUND */
 * {
   font-family: "Poppins", sans-serif !important;
 }
@@ -399,6 +401,12 @@ body {
 }
 
 /* Header menu desktop y mobile */
+/* Variables de colores */
+/* Variables fuentes */
+/* Titutales y encabezados */
+/* HIPERVINCULOS */
+/* TEXTO */
+/* BACKGROUND */
 /* ESTILOS PARA VISTA DESKTOP <1200px */
 .header {
   margin: auto 30px;
@@ -418,6 +426,9 @@ body {
   text-decoration: none;
   color: white;
 }
+.header__logo h2 a:hover {
+  color: rgba(238, 166, 59, 0.7);
+}
 .header__menuNav {
   flex-grow: 2;
   align-self: baseline;
@@ -432,8 +443,17 @@ body {
   color: white;
   padding-left: 40px;
 }
+.header__menuNav ul li a:hover {
+  color: rgba(238, 166, 59, 0.7);
+}
 
 /* Main para desktop y mobile */
+/* Variables de colores */
+/* Variables fuentes */
+/* Titutales y encabezados */
+/* HIPERVINCULOS */
+/* TEXTO */
+/* BACKGROUND */
 .main__section {
   background: linear-gradient(90deg, rgba(143, 121, 94, 0.5) 40%, rgba(223, 205, 180, 0));
   border-radius: 5px;
@@ -456,6 +476,9 @@ body {
   letter-spacing: 3px;
   margin-left: 50px;
 }
+.main__section__form h2::first-letter {
+  font-size: 30px;
+}
 .main__section__form legend {
   padding-left: 25px;
 }
@@ -465,10 +488,25 @@ body {
 .main__section__form div input {
   margin-top: 20px;
 }
+.main__section__form div input::-moz-placeholder {
+  color: rgb(152, 132, 104);
+}
+.main__section__form div input::placeholder {
+  color: rgb(152, 132, 104);
+}
+.main__section__form div textarea::-moz-placeholder {
+  color: rgb(152, 132, 104);
+}
+.main__section__form div textarea::placeholder {
+  color: rgb(152, 132, 104);
+}
 .main__section__item1 h2 {
   letter-spacing: 3px;
   margin-left: 50px;
-  color: rgb(251, 239, 220);
+  color: rgb(233, 215, 191);
+}
+.main__section__item1 h2::first-letter {
+  font-size: 30px;
 }
 .main__section__item1 a {
   background-color: rgba(233, 215, 191, 0.5);
@@ -479,6 +517,13 @@ body {
   margin-right: 50px;
   color: rgb(152, 132, 104);
 }
+.main__section__item1 a:hover {
+  background-color: rgb(233, 215, 191);
+  color: white;
+}
+.main__section__item1 p::first-letter {
+  font-size: 30px;
+}
 .main__section__item2 img {
   width: 600px;
   height: auto;
@@ -486,7 +531,7 @@ body {
 }
 
 .mainH1 {
-  background: linear-gradient(340deg, rgba(233, 215, 191, 0.5) 40%, rgba(0, 0, 0, 0));
+  background: linear-gradient(340deg, rgba(233, 215, 191, 0.5) 40%, rgba(94, 71, 42, 0.5));
   border-radius: 5px;
   margin: 40px 20px;
   padding: 10px;
@@ -495,6 +540,10 @@ body {
   color: white;
   letter-spacing: 3px;
   margin-left: 50px;
+}
+.mainH1 h1::first-letter {
+  font-size: 50px;
+  color: rgb(233, 215, 191);
 }
 
 /* Section para desktop y mobile */
@@ -514,7 +563,10 @@ body {
   float: right;
   letter-spacing: 3px;
   margin-right: 100px;
-  color: rgb(251, 239, 220);
+  color: rgb(233, 215, 191);
+}
+.section__item h2::first-letter {
+  font-size: 30px;
 }
 .section__item a {
   background-color: rgba(233, 215, 191, 0.5);
@@ -525,8 +577,15 @@ body {
   margin-left: 100px;
   color: rgb(152, 132, 104);
 }
+.section__item a:hover {
+  background-color: rgb(233, 215, 191);
+  color: white;
+}
 .section__item p {
   float: right;
+}
+.section__item p::first-letter {
+  font-size: 30px;
 }
 
 /* EDITAR TABLA */
@@ -535,6 +594,10 @@ body {
   justify-content: center;
   width: 800px;
 }
+.section-table table {
+  border-collapse: separate;
+  border-spacing: 20px;
+}
 .section-table caption {
   text-align: center;
   font-size: 23px;
@@ -542,14 +605,21 @@ body {
   font-weight: bold;
   color: rgb(233, 215, 191);
 }
+.section-table caption::first-letter {
+  font-size: 30px;
+}
 .section-table th {
+  background-color: rgb(233, 215, 191);
+  border-radius: 3px;
   text-align: center;
   padding: auto 20px;
   color: rgb(152, 132, 104);
 }
 .section-table td {
+  background-color: rgba(233, 215, 191, 0.5);
+  border-radius: 3px;
   text-align: left;
-  padding: auto 20px;
+  padding: 5px;
 }
 
 /* Footer para desktop y mobile */
@@ -566,10 +636,17 @@ body {
   padding-left: 20px;
   color: rgb(143, 121, 94);
 }
+.footer__nav a:hover {
+  color: white;
+}
 .footer__logo a {
   text-decoration: none;
   letter-spacing: 3px;
   color: rgb(143, 121, 94);
+}
+.footer__logo a:hover {
+  color: white;
+  letter-spacing: 5px;
 }
 .footer__copy {
   font-size: 20px !important;

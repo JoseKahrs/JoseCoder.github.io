@@ -10,6 +10,9 @@
             text-decoration: none;
             padding-left: 20px;
             color: rgba(143,121,94);
+            &:hover {
+                color: white;
+            }
         }
     }
     &__logo {
@@ -17,6 +20,10 @@
             text-decoration: none;
             letter-spacing: 3px;
             color: rgba(143,121,94);
+            &:hover {
+                color: white;
+                letter-spacing: 5px;
+            }
         }
     }
     &__copy {

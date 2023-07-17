@@ -1,3 +1,4 @@
+@import "../base/colors";
 /* ESTILOS PARA VISTA DESKTOP <1200px */
 .header{
     margin: auto 30px;
@@ -14,6 +15,9 @@
             letter-spacing: 5px;
             text-decoration: none;
             color: white;
+            &:hover {
+                color: rgba(238,166,59,0.7);
+            }
         }
     }
     &__menuNav {
@@ -27,6 +31,9 @@
                 text-decoration: none;
                 color: white;
                 padding-left: 40px;
+                &:hover {
+                    color: rgba(238,166,59,0.7);
+                }
             }
         }
     }
