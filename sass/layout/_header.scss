@@ -16,7 +16,8 @@
             text-decoration: none;
             color: white;
             &:hover {
-                color: rgba(238,166,59,0.7);
+                letter-spacing: 3px;
+                transition: all 0.5s;
             }
         }
     }
@@ -30,9 +31,12 @@
                 letter-spacing: 3px;
                 text-decoration: none;
                 color: white;
-                padding-left: 40px;
+                padding-inline: 20px;
                 &:hover {
-                    color: rgba(238,166,59,0.7);
+                    background-color: rgba(255, 255, 255, 0.5);
+                    border-radius: 3px;
+                    color: rgba(126, 83, 28, 0.795);
+                    transition: all 1s;
                 }
             }
         }
@@ -42,13 +46,3 @@
 .navbar {
     display: none;
 }
-
-@media (min-widht: 0px) and (max-widht: 1024) {
-    .header {
-        display: none;
-    }
-    .navbar {
-        display: flex;
-    }
-}
-
