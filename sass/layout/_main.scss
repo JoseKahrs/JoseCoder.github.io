@@ -1,5 +1,6 @@
 .main__section {
-    background: linear-gradient(90deg, rgba(223, 205, 180, 0.7) 40%,rgba(223, 205, 180, 0));    border-radius: 5px;
+    background: linear-gradient(90deg, rgba(143,121,94,0.5) 40%,rgba(223, 205, 180, 0));
+    border-radius: 5px;    
     color: white;
     margin: 40px 20px;
     padding: 10px;
@@ -8,28 +9,40 @@
     justify-content: center;
     align-items: center;
     &__form {
-        flex-direction: column;
-        h2 {
-            color: rgba(188, 125, 49, 0.6);
+        fieldset {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
-        /* CONFIGURACION ESTILOS FORMULARIO */
-        h2 {
-            letter-spacing: 3px;
-            margin-left: 50px;
-        }
+            h2 {
+                color: rgba(233,215,191);
+                letter-spacing: 3px;
+                margin-left: 50px;
+            }
+            legend {
+                padding-left: 25px;
+            }
+            div {
+                label {
+                    padding: 10px;
+                }
+                input {
+                    margin-top: 20px;
+                }
+            }
+
     }
     &__item1 {
-        h1 {
-            color: rgba(212, 136, 43, 0.8);
-            letter-spacing: 3px;
-            margin-left: 50px;
-        }
         h2 {
             letter-spacing: 3px;
             margin-left: 50px;
-            color: rgba(188, 125, 49, 0.6);
+            color: rgb(251,239,220);
         }
         a {
+            background-color: rgba(233,215,191);
+            border-radius: 5px;
+            padding: 3px;
             text-decoration: none;
             float: right;
             margin-right: 50px;
@@ -46,11 +59,12 @@
 }
 
 .mainH1 {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 40%,rgba(0, 0, 0, 0));    border-radius: 5px;
-    color: white;
+    background: linear-gradient(340deg, rgba(233,215,191, 0.5) 40%,rgba(0, 0, 0, 0));    
+    border-radius: 5px;
     margin: 40px 20px;
     padding: 10px;
     h1 {
+        color: white;
         letter-spacing: 3px;
         margin-left: 50px;
     }

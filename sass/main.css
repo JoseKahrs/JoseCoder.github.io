@@ -435,7 +435,7 @@ body {
 
 /* Main para desktop y mobile */
 .main__section {
-  background: linear-gradient(90deg, rgba(223, 205, 180, 0.7) 40%, rgba(223, 205, 180, 0));
+  background: linear-gradient(90deg, rgba(143, 121, 94, 0.5) 40%, rgba(223, 205, 180, 0));
   border-radius: 5px;
   color: white;
   margin: 40px 20px;
@@ -445,28 +445,35 @@ body {
   justify-content: center;
   align-items: center;
 }
-.main__section__form {
+.main__section__form fieldset {
+  display: flex;
   flex-direction: column;
-  /* CONFIGURACION ESTILOS FORMULARIO */
+  justify-content: center;
+  align-items: center;
 }
 .main__section__form h2 {
-  color: rgba(188, 125, 49, 0.6);
-}
-.main__section__form h2 {
+  color: rgb(233, 215, 191);
   letter-spacing: 3px;
   margin-left: 50px;
 }
-.main__section__item1 h1 {
-  color: rgba(212, 136, 43, 0.8);
-  letter-spacing: 3px;
-  margin-left: 50px;
+.main__section__form legend {
+  padding-left: 25px;
+}
+.main__section__form div label {
+  padding: 10px;
+}
+.main__section__form div input {
+  margin-top: 20px;
 }
 .main__section__item1 h2 {
   letter-spacing: 3px;
   margin-left: 50px;
-  color: rgba(188, 125, 49, 0.6);
+  color: rgb(251, 239, 220);
 }
 .main__section__item1 a {
+  background-color: rgb(233, 215, 191);
+  border-radius: 5px;
+  padding: 3px;
   text-decoration: none;
   float: right;
   margin-right: 50px;
@@ -479,20 +486,20 @@ body {
 }
 
 .mainH1 {
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 40%, rgba(0, 0, 0, 0));
+  background: linear-gradient(340deg, rgba(233, 215, 191, 0.5) 40%, rgba(0, 0, 0, 0));
   border-radius: 5px;
-  color: white;
   margin: 40px 20px;
   padding: 10px;
 }
 .mainH1 h1 {
+  color: white;
   letter-spacing: 3px;
   margin-left: 50px;
 }
 
 /* Section para desktop y mobile */
 .section {
-  background: linear-gradient(270deg, rgba(223, 205, 180, 0.7) 40%, rgba(223, 205, 180, 0));
+  background: linear-gradient(270deg, rgba(143, 121, 94, 0.5) 40%, rgba(223, 205, 180, 0));
   border-radius: 5px;
   color: white;
   margin: 40px 20px;
@@ -504,15 +511,22 @@ body {
   align-items: center;
 }
 .section__item h2 {
+  float: right;
   letter-spacing: 3px;
-  margin-left: 50px;
-  color: rgba(188, 125, 49, 0.8);
+  margin-right: 100px;
+  color: rgb(251, 239, 220);
 }
 .section__item a {
+  background-color: rgb(233, 215, 191);
+  border-radius: 5px;
+  padding: 3px;
   text-decoration: none;
-  float: right;
-  margin-right: 50px;
+  float: left;
+  margin-left: 100px;
   color: rgb(152, 132, 104);
+}
+.section__item p {
+  float: right;
 }
 
 /* EDITAR TABLA */
@@ -526,7 +540,7 @@ body {
   font-size: 23px;
   letter-spacing: 3px;
   font-weight: bold;
-  color: rgba(188, 125, 49, 0.8);
+  color: rgb(233, 215, 191);
 }
 .section-table th {
   text-align: center;
@@ -545,20 +559,24 @@ body {
   justify-content: space-around;
   align-items: center;
   justify-items: center;
+  color: white;
 }
 .footer__nav a {
   text-decoration: none;
   padding-left: 20px;
-  color: rgba(188, 125, 49, 0.7);
+  color: rgb(143, 121, 94);
 }
 .footer__logo a {
   text-decoration: none;
   letter-spacing: 3px;
-  color: rgba(188, 125, 49, 0.7);
+  color: rgb(143, 121, 94);
 }
 .footer__copy {
   padding-right: 20px;
-} /* Media queries responsive */
+}
+
+/* Formulario de contacto */
+/* Media queries responsive */
 /* Grid para catalogo de img */
 .gridcontenedor {
   margin: 60px 10px;

@@ -1,5 +1,6 @@
 .section {
-    background: linear-gradient(270deg, rgba(223, 205, 180, 0.7) 40%,rgba(223, 205, 180, 0));    border-radius: 5px;
+    background: linear-gradient(270deg, rgba(143,121,94,0.5) 40%,rgba(223, 205, 180, 0));    
+    border-radius: 5px;
     color: white;
     margin: 40px 20px;
     padding: 10px;
@@ -10,15 +11,22 @@
     align-items: center;
     &__item {
         h2 {
+            float: right;
             letter-spacing: 3px;
-            margin-left: 50px;
-            color: rgba(188, 125, 49, 0.8);
+            margin-right: 100px;
+            color: rgb(251,239,220);
         }
         a{
+            background-color: rgba(233,215,191);
+            border-radius: 5px;
+            padding: 3px;
             text-decoration: none;
-            float: right;
-            margin-right: 50px;
+            float: left;
+            margin-left: 100px;
             color: rgb(152,132,104);
+        }
+        p {
+            float: right;
         }
     }
 }
@@ -32,7 +40,7 @@
             font-size: 23px;
             letter-spacing: 3px;
             font-weight: bold;
-            color: rgba(188, 125, 49, 0.8);
+            color: rgba(233,215,191);
         }
         th {
             text-align: center;
