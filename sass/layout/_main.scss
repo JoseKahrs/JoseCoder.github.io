@@ -1,16 +1,12 @@
 @import "../base/colors";
 @import "../base/animaciones";
+@import "../base/variables";
 
 .main__section {
     background: linear-gradient(90deg, rgba(143,121,94,0.5) 40%,rgba(223, 205, 180, 0));
     border-radius: 5px;    
     color: white;
-    margin: 40px 20px;
-    padding: 10px;
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-    align-items: center;
+    @include styleMain;
     &__form {
         fieldset {
             border: none;
@@ -25,12 +21,7 @@
     }   
     &__item1 {
         h2 {
-            letter-spacing: 3px;
-            margin-left: 50px;
-            color: $colorTitulo;
-            &::first-letter {
-                font-size: 30px;
-            }
+            @include titularesMain;
         }
         a {
             background-color: $coloHiperBg;
