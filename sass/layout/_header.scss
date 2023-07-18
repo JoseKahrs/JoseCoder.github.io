@@ -1,23 +1,13 @@
 @import "../base/colors";
+@import "../base/mixin";
 /* ESTILOS PARA VISTA DESKTOP <1200px */
 .header{
-    margin: auto 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: flex-start;
-    align-items: center;
-    justify-items: center;
+    @include navDesk;
     &__logo {
         flex-grow: 1;
         align-self: baseline;
         & h2 a{
-            letter-spacing: 5px;
-            text-decoration: none;
-            color: white;
-            &:hover {
-                letter-spacing: 3px;
-                transition: all 0.5s;
+            @include hipNav;
             }
         }
     }

@@ -1,0 +1,71 @@
+/* MENU HEADER DESKTOP */
+@mixin navDesk {
+    margin: auto 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+    justify-items: center;
+}
+
+/* EFECTO HOVER MENU */
+@mixin hipNav{
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: white;
+    &:hover {
+        letter-spacing: 3px;
+        transition: all 0.5s;
+}
+
+/* SECCIONES */
+@mixin styleMain {
+    background: linear-gradient(90deg, rgba(143,121,94,0.5) 40%,rgba(223, 205, 180, 0));
+    border-radius: 5px;    
+    color: white;
+    margin: 40px 20px;
+    padding: 10px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin styleSection {
+    @include styleMain; 
+    flex-direction: row-reverse;
+}
+
+/* TITULARES */
+
+@mixin titularesMain {
+    letter-spacing: 3px;
+    margin-left: 50px;
+    color: $colorTitulo;
+    &::first-letter {
+        font-size: 30px;
+    }
+}
+
+@mixin titularesSection {
+    @include titularesMain;
+    float: right;
+    margin-right: 50px !important;
+}
+
+/* HIPERVINCULOS */
+@mixin hiper {
+    background-color: $coloHiperBg;
+    border-radius: 5px;
+    padding: 3px;
+    text-decoration: none;
+    margin-right: 50px;
+    color: $colorHiper;
+    &:hover {
+        background-color: $colorTitulo;
+        color: white;
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
+}

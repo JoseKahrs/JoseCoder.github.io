@@ -407,6 +407,10 @@ body {
 /* HIPERVINCULOS */
 /* TEXTO */
 /* BACKGROUND */
+/* MENU HEADER DESKTOP */
+/* SECCIONES */
+/* TITULARES */
+/* HIPERVINCULOS */
 /* ESTILOS PARA VISTA DESKTOP <1200px */
 .header {
   margin: auto 30px;
@@ -488,8 +492,10 @@ body {
     opacity: 1;
   }
 }
+/* MENU HEADER DESKTOP */
 /* SECCIONES */
 /* TITULARES */
+/* HIPERVINCULOS */
 .main__section {
   background: linear-gradient(90deg, rgba(143, 121, 94, 0.5) 40%, rgba(223, 205, 180, 0));
   border-radius: 5px;
@@ -524,9 +530,9 @@ body {
   border-radius: 5px;
   padding: 3px;
   text-decoration: none;
-  float: right;
   margin-right: 50px;
   color: rgb(152, 132, 104);
+  float: right;
 }
 .main__section__item1 a:hover {
   background-color: rgb(233, 215, 191);
@@ -595,7 +601,7 @@ body {
   }
 }
 .section {
-  background: linear-gradient(270deg, rgba(143, 121, 94, 0.5) 40%, rgba(223, 205, 180, 0));
+  background: linear-gradient(90deg, rgba(143, 121, 94, 0.5) 40%, rgba(223, 205, 180, 0));
   border-radius: 5px;
   color: white;
   margin: 40px 20px;
@@ -621,9 +627,9 @@ body {
   border-radius: 5px;
   padding: 3px;
   text-decoration: none;
-  float: left;
-  margin-left: 100px;
+  margin-right: 50px;
   color: rgb(152, 132, 104);
+  float: left;
 }
 .section__item a:hover {
   background-color: rgb(233, 215, 191);
@@ -769,4 +775,9 @@ body {
     transform: scale(1);
     opacity: 1;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+/* Mixin */
+/* MENU HEADER DESKTOP */
+/* SECCIONES */
+/* TITULARES */
+/* HIPERVINCULOS *//*# sourceMappingURL=main.css.map */

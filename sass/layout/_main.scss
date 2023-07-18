@@ -1,11 +1,8 @@
 @import "../base/colors";
 @import "../base/animaciones";
-@import "../base/variables";
+@import "../base/mixin";
 
 .main__section {
-    background: linear-gradient(90deg, rgba(143,121,94,0.5) 40%,rgba(223, 205, 180, 0));
-    border-radius: 5px;    
-    color: white;
     @include styleMain;
     &__form {
         fieldset {
@@ -24,19 +21,8 @@
             @include titularesMain;
         }
         a {
-            background-color: $coloHiperBg;
-            border-radius: 5px;
-            padding: 3px;
-            text-decoration: none;
+            @include hiper;
             float: right;
-            margin-right: 50px;
-            color: $colorHiper;
-            &:hover {
-                background-color: $colorTitulo;
-                color: white;
-                transform: scale(1.1);
-                transition: all 0.5s;
-            }
         }
         p {
             &::first-letter {
