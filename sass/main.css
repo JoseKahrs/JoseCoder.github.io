@@ -724,6 +724,7 @@ body {
 
 /* Formulario de contacto */
 /* Media queries responsive */
+/* DESKTOP */
 @media (max-widht: 1024px) {
   #desktop {
     display: none;
