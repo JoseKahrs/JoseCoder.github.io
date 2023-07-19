@@ -12,7 +12,7 @@
         }
     &__menuNav {
         flex-grow: 2;
-        align-self: baseline;
+        justify-content: space-around;
         text-align: end;
         & ul li {
             display: inline-block;
