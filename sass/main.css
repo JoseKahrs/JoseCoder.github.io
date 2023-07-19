@@ -384,15 +384,12 @@ th {
 /* HIPERVINCULOS */
 /* TEXTO */
 /* BACKGROUND */
-* body {
+.my-custom-font {
   font-family: "Poppins", sans-serif !important;
 }
-
-* h1 {
+.my-custom-font h1 {
   font-family: "Lato", sans-serif !important;
-}
-
-/* Background */
+} /* Background */
 body {
   background-image: url(../img/background.jpg);
   background-size: cover;
@@ -408,6 +405,7 @@ body {
 /* TEXTO */
 /* BACKGROUND */
 /* MENU HEADER DESKTOP */
+/* EFECTO HOVER MENU */
 /* SECCIONES */
 /* TITULARES */
 /* HIPERVINCULOS */
@@ -493,6 +491,7 @@ body {
   }
 }
 /* MENU HEADER DESKTOP */
+/* EFECTO HOVER MENU */
 /* SECCIONES */
 /* TITULARES */
 /* HIPERVINCULOS */
@@ -557,12 +556,12 @@ body {
 }
 
 .mainH1 {
-  background: linear-gradient(340deg, rgba(233, 215, 191, 0.5) 40%, rgba(94, 71, 42, 0.5));
   border-radius: 5px;
   margin: 40px 20px;
   padding: 10px;
 }
 .mainH1 h1 {
+  font-weight: bold;
   color: white;
   letter-spacing: 3px;
   margin-left: 50px;
@@ -601,7 +600,7 @@ body {
   }
 }
 .section {
-  background: linear-gradient(90deg, rgba(143, 121, 94, 0.5) 40%, rgba(223, 205, 180, 0));
+  background: linear-gradient(270deg, rgba(143, 121, 94, 0.5) 40%, rgba(223, 205, 180, 0));
   border-radius: 5px;
   color: white;
   margin: 40px 20px;
@@ -648,7 +647,7 @@ body {
 .section-table {
   display: flex;
   justify-content: center;
-  width: 800px;
+  width: 900px;
 }
 .section-table table {
   border-collapse: separate;
@@ -778,6 +777,7 @@ body {
 }
 /* Mixin */
 /* MENU HEADER DESKTOP */
+/* EFECTO HOVER MENU */
 /* SECCIONES */
 /* TITULARES */
 /* HIPERVINCULOS *//*# sourceMappingURL=main.css.map */
