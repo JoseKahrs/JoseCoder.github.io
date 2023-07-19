@@ -1058,6 +1058,7 @@ body {
   }
   #mobile__carrousel {
     display: inline-block;
+    text-align: center;
   }
   .main__section {
     flex-direction: column !important;
@@ -1080,6 +1081,13 @@ body {
   }
   .container {
     margin: auto 75px;
+  }
+  .mainH1 {
+    margin: 30px 5px;
+    padding: 5px;
+  }
+  .mainH1 h1 {
+    margin-left: 15px;
   }
 }
 /* Tablet */

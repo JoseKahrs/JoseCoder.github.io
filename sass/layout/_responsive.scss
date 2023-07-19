@@ -16,6 +16,8 @@
         display: inline-block;
         &__carrousel {
             display: inline-block;
+            text-align: center;
+
         }
     }
     .main__section {
@@ -43,6 +45,13 @@
     }
     .container {
         margin: auto 75px;
+    }
+    .mainH1 {
+        margin: 30px 5px;
+        padding: 5px;
+        h1 {
+            margin-left: 15px;
+        }
     }
 
 }
