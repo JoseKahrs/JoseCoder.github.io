@@ -724,6 +724,11 @@ body {
 
 /* Formulario de contacto */
 /* Media queries responsive */
+@media (max-widht: 1024px) {
+  #desktop {
+    display: none;
+  }
+}
 /* Grid para catalogo de img */
 .gridcontenedor {
   margin: 60px 10px;
