@@ -4,12 +4,43 @@
 @import "../layout/contacto";
 @import "../layout/footer";
 
-/* DESKTOP */
-@media (max-widht: 1024px) {
+/* Mobile */
+@media (min-width:0px) and (max-width:1024px) {
     #desktop {
         display: none;
     }
     #mobile {
-        display: block;
+        display: inline-block;
+        &__carrousel {
+            display: inline-block;
+            width: auto auto;
+        }
     }
+    .main__section {
+        flex-direction: column !important;
+        &__item2 {
+            img {
+                width: 400px;
+            }
+        }
+    }
+    .section {
+        flex-direction: column;
+    }
+    .section-table {
+        max-width: 400px;
+        display: flex;
+    }
+    .footer {
+        &__nav {
+            display: none;
+        }
+        &__copy {
+            display: none;
+        }
+    }
+    .container {
+        margin: auto 75px;
+    }
+
 }
