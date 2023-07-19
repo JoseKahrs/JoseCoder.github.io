@@ -724,10 +724,334 @@ body {
 
 /* Formulario de contacto */
 /* Media queries responsive */
+/* Variables de colores */
+/* Variables fuentes */
+/* Titutales y encabezados */
+/* HIPERVINCULOS */
+/* TEXTO */
+/* BACKGROUND */
+/* MENU HEADER DESKTOP */
+/* EFECTO HOVER MENU */
+/* SECCIONES */
+/* TITULARES */
+/* HIPERVINCULOS */
+/* ESTILOS PARA VISTA DESKTOP <1200px */
+.header {
+  margin: auto 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  align-items: center;
+  justify-items: center;
+}
+.header__logo {
+  flex-grow: 1;
+  align-self: baseline;
+}
+.header__logo h2 a {
+  letter-spacing: 5px;
+  text-decoration: none;
+  color: white;
+}
+.header__logo h2 a:hover {
+  letter-spacing: 3px;
+  transition: all 0.5s;
+}
+.header__menuNav {
+  flex-grow: 2;
+  align-self: baseline;
+  text-align: end;
+}
+.header__menuNav ul li {
+  display: inline-block;
+}
+.header__menuNav ul li a {
+  letter-spacing: 3px;
+  text-decoration: none;
+  color: white;
+  padding-inline: 20px;
+}
+.header__menuNav ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+  color: rgba(126, 83, 28, 0.795);
+  transition: all 1s;
+}
+
+.navbar {
+  display: none;
+}
+
+/* Variables de colores */
+/* Variables fuentes */
+/* Titutales y encabezados */
+/* HIPERVINCULOS */
+/* TEXTO */
+/* BACKGROUND */
+@keyframes animacionImg {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes introH1 {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.3;
+  }
+  40% {
+    transform: scale(0.9);
+    opacity: 0.55;
+  }
+  80% {
+    transform: scale(1.02);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+/* MENU HEADER DESKTOP */
+/* EFECTO HOVER MENU */
+/* SECCIONES */
+/* TITULARES */
+/* HIPERVINCULOS */
+.main__section {
+  background: linear-gradient(90deg, rgba(143, 121, 94, 0.5) 40%, rgba(223, 205, 180, 0));
+  border-radius: 5px;
+  color: white;
+  margin: 40px 20px;
+  padding: 10px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.main__section__form fieldset {
+  border: none;
+}
+.main__section__form h2 {
+  letter-spacing: 3px;
+  color: rgb(233, 215, 191);
+}
+.main__section__form h2::first-letter {
+  font-size: 30px;
+}
+.main__section__item1 h2 {
+  letter-spacing: 3px;
+  margin-left: 50px;
+  color: rgb(233, 215, 191);
+}
+.main__section__item1 h2::first-letter {
+  font-size: 30px;
+}
+.main__section__item1 a {
+  background-color: rgba(233, 215, 191, 0.5);
+  border-radius: 5px;
+  padding: 3px;
+  text-decoration: none;
+  margin-right: 50px;
+  color: rgb(152, 132, 104);
+  float: right;
+}
+.main__section__item1 a:hover {
+  background-color: rgb(233, 215, 191);
+  color: white;
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.main__section__item1 p::first-letter {
+  font-size: 30px;
+}
+.main__section__item2 {
+  animation: animacionImg 1s linear;
+}
+.main__section__item2 img {
+  width: 600px;
+  height: auto;
+  border-radius: 5px;
+}
+.main__section__item2 img:hover {
+  transform: scale(1.1);
+  transition: all 1s;
+}
+
+.mainH1 {
+  border-radius: 5px;
+  margin: 40px 20px;
+  padding: 10px;
+}
+.mainH1 h1 {
+  font-weight: bold;
+  color: white;
+  letter-spacing: 3px;
+  margin-left: 50px;
+  animation: introH1 0.5s linear;
+}
+.mainH1 h1::first-letter {
+  font-size: 50px;
+  color: rgb(233, 215, 191);
+}
+
+@keyframes animacionImg {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes introH1 {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.3;
+  }
+  40% {
+    transform: scale(0.9);
+    opacity: 0.55;
+  }
+  80% {
+    transform: scale(1.02);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.section {
+  background: linear-gradient(270deg, rgba(143, 121, 94, 0.5) 40%, rgba(223, 205, 180, 0));
+  border-radius: 5px;
+  color: white;
+  margin: 40px 20px;
+  padding: 10px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.section__item h2 {
+  letter-spacing: 3px;
+  margin-left: 50px;
+  color: rgb(233, 215, 191);
+  float: right;
+  margin-right: 50px !important;
+}
+.section__item h2::first-letter {
+  font-size: 30px;
+}
+.section__item a {
+  background-color: rgba(233, 215, 191, 0.5);
+  border-radius: 5px;
+  padding: 3px;
+  text-decoration: none;
+  margin-right: 50px;
+  color: rgb(152, 132, 104);
+  float: left;
+}
+.section__item a:hover {
+  background-color: rgb(233, 215, 191);
+  color: white;
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.section__item p {
+  float: right;
+}
+.section__item p::first-letter {
+  font-size: 30px;
+}
+
+/* EDITAR TABLA */
+.section-table {
+  display: flex;
+  justify-content: center;
+  width: 900px;
+}
+.section-table table {
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+.section-table caption {
+  text-align: center;
+  font-size: 23px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  color: rgb(233, 215, 191);
+}
+.section-table caption::first-letter {
+  font-size: 30px;
+}
+.section-table th {
+  background-color: rgb(233, 215, 191);
+  border-radius: 3px;
+  text-align: center;
+  padding: auto 20px;
+  color: rgb(152, 132, 104);
+}
+.section-table tr:hover {
+  background-color: rgba(238, 166, 59, 0.7);
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.section-table td {
+  background-color: rgba(233, 215, 191, 0.5);
+  border-radius: 3px;
+  text-align: left;
+  padding: 5px;
+}
+
+.container {
+  display: none;
+  max-width: 300px;
+  padding: 0;
+}
+
+.footer {
+  margin: auto 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+  color: white;
+}
+.footer__nav a {
+  text-decoration: none;
+  padding-left: 20px;
+  color: rgb(143, 121, 94);
+}
+.footer__nav a:hover {
+  color: rgba(126, 83, 28, 0.795);
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+  transition: all 0.5s;
+}
+.footer__logo a {
+  text-decoration: none;
+  letter-spacing: 3px;
+  color: rgb(143, 121, 94);
+}
+.footer__logo a:hover {
+  color: white;
+  transition: all 0.5s;
+}
+.footer__copy {
+  font-size: 20px !important;
+  padding-right: 20px;
+}
+
 /* DESKTOP */
 @media (max-widht: 1024px) {
   #desktop {
     display: none;
+  }
+  #mobile {
+    display: block;
   }
 }
 /* Grid para catalogo de img */

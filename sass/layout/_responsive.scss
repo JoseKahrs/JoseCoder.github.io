@@ -1,6 +1,15 @@
+@import "../layout/header";
+@import "../layout/main";
+@import "../layout/section";
+@import "../layout/contacto";
+@import "../layout/footer";
+
 /* DESKTOP */
 @media (max-widht: 1024px) {
     #desktop {
         display: none;
+    }
+    #mobile {
+        display: block;
     }
 }
