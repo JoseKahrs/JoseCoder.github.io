@@ -3,6 +3,7 @@
 @import "../base/mixin";
 
 .main__section {
+    background: linear-gradient(90deg, rgba(143,121,94,0.5) 40%,rgba(223, 205, 180, 0));
     @include styleMain;
     &__form {
         fieldset {
