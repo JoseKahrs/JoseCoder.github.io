@@ -2,7 +2,7 @@
 
 .section {
     @include styleSection;
-    background: linear-gradient(270deg, rgba(143,121,94,0.5) 40%,rgba(223, 205, 180, 0));
+    background: linear-gradient (270deg, rgba(143,121,94,0.5) 40%,rgba(223, 205, 180, 0));
     &__item {
         h2 {
             @include titularesSection;
