@@ -10,13 +10,14 @@
 }
 
 /* EFECTO HOVER MENU */
-@mixin hipNav{
+@mixin hipNav {
     letter-spacing: 5px;
     text-decoration: none;
     color: white;
     &:hover {
         letter-spacing: 3px;
         transition: all 0.5s;
+    }
 }
 
 /* SECCIONES */
