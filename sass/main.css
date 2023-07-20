@@ -1051,12 +1051,6 @@ body {
   #desktop {
     display: none;
   }
-  #mobile {
-    display: inline-block;
-  }
-  #mobile__carrousel {
-    margin-left: 5px;
-  }
   .main__section {
     flex-direction: column !important;
   }
@@ -1085,6 +1079,13 @@ body {
   }
   .mainH1 h1 {
     margin-left: 15px;
+  }
+  #mobile {
+    display: inline-block !important;
+  }
+  #mobile__carrousel {
+    display: inline-block;
+    margin-left: 25px !important;
   }
 }
 /* Tablet */

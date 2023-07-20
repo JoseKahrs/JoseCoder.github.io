@@ -12,12 +12,6 @@
     #desktop {
         display: none;
     }
-    #mobile {
-        display: inline-block;
-        &__carrousel {
-            margin-left: 3px !important;
-        }
-    }
     .main__section {
         flex-direction: column !important;
         &__item2 {
@@ -51,7 +45,13 @@
             margin-left: 15px;
         }
     }
-
+    #mobile {
+        display: inline-block !important;
+        &__carrousel {
+            display: inline-block;
+            margin-left: 25px !important;
+        }
+    }
 }
 
 /* Tablet */
