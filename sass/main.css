@@ -1084,8 +1084,8 @@ body {
     display: inline-block !important;
   }
   #mobile__carrousel {
-    display: inline-block;
-    margin-left: 25px !important;
+    display: flex;
+    max-width: 300px !important;
   }
 }
 /* Tablet */
@@ -1106,7 +1106,7 @@ body {
     display: none;
   }
   #mobile__carrousel {
-    display: none;
+    display: none !important;
   }
   .main__section {
     flex-direction: column !important;

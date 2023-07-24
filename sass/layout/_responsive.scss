@@ -48,7 +48,8 @@
     #mobile {
         display: inline-block !important;
         &__carrousel {
-            display: inline-block;
+            display: flex;
+            max-width: 300px !important;
         }
     }
 }
@@ -72,7 +73,7 @@
     #mobile {
         display: none;
         &__carrousel {
-            display: none;
+            display: none !important;
         }
     }
     .main__section {
