@@ -497,6 +497,7 @@ body {
 /* HIPERVINCULOS */
 .main__section {
   background: linear-gradient(90deg, rgba(143, 121, 94, 0.5) 40%, rgba(223, 205, 180, 0));
+  box-shadow: -5px 4px 15px 0px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   color: white;
   margin: 40px 20px;
@@ -565,6 +566,7 @@ body {
   color: white;
   letter-spacing: 3px;
   margin-left: 50px;
+  text-shadow: 2px 0px 5px rgba(0, 0, 0, 0.7);
 }
 .mainH1 h1::first-letter {
   font-size: 50px;
@@ -600,6 +602,7 @@ body {
 }
 .section {
   background: linear-gradient(270deg, rgba(143, 121, 94, 0.5) 40%, rgba(223, 205, 180, 0));
+  box-shadow: 5px 4px 15px 0px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   color: white;
   margin: 40px 20px;
@@ -821,6 +824,7 @@ body {
 /* HIPERVINCULOS */
 .main__section {
   background: linear-gradient(90deg, rgba(143, 121, 94, 0.5) 40%, rgba(223, 205, 180, 0));
+  box-shadow: -5px 4px 15px 0px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   color: white;
   margin: 40px 20px;
@@ -889,6 +893,7 @@ body {
   color: white;
   letter-spacing: 3px;
   margin-left: 50px;
+  text-shadow: 2px 0px 5px rgba(0, 0, 0, 0.7);
 }
 .mainH1 h1::first-letter {
   font-size: 50px;
@@ -923,6 +928,7 @@ body {
 }
 .section {
   background: linear-gradient(270deg, rgba(143, 121, 94, 0.5) 40%, rgba(223, 205, 180, 0));
+  box-shadow: 5px 4px 15px 0px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   color: white;
   margin: 40px 20px;
