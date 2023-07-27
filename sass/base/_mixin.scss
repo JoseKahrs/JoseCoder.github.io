@@ -1,6 +1,6 @@
 /* MENU HEADER DESKTOP */
 @mixin navDesk {
-    margin: auto 30px;
+    margin: 20px 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -14,9 +14,10 @@
     letter-spacing: 5px;
     text-decoration: none;
     color: white;
+    text-shadow: 2px 0px 5px rgba(0, 0, 0, 0.4);
     &:hover {
         letter-spacing: 3px;
-        transition: all 0.5s;
+        transition: all 0.2s;
     }
 }
 
@@ -79,6 +80,6 @@
         background-color: $colorTitulo;
         color: white;
         transform: scale(1.1);
-        transition: all 0.5s;
+        transition: all 0.3s;
     }
 }

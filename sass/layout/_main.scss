@@ -33,14 +33,14 @@
         }
     }
     &__item2 {
-        animation: animacionImg 1s linear;
+        animation: animacionImg 0.5s linear;
         img {
             width: 600px;
             height: auto;
             border-radius: 5px;
             &:hover {
                 transform: scale(1.1);
-                transition: all 1s;
+                transition: all 0.4s;
             }
         }
     }
@@ -51,6 +51,7 @@
     border-radius: 5px;
     margin: 40px 20px;
     padding: 10px;
+    animation: introH1 0.5s linear;
     h1 {
         font-weight: bold;
         color: white;

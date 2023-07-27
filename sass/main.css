@@ -411,7 +411,7 @@ body {
 /* HIPERVINCULOS */
 /* ESTILOS PARA VISTA DESKTOP <1200px */
 .header {
-  margin: auto 30px;
+  margin: 20px 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -427,10 +427,11 @@ body {
   letter-spacing: 5px;
   text-decoration: none;
   color: white;
+  text-shadow: 2px 0px 5px rgba(0, 0, 0, 0.4);
 }
 .header__logo h2 a:hover {
   letter-spacing: 3px;
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 .header__menuNav {
   flex-grow: 2;
@@ -445,12 +446,14 @@ body {
   text-decoration: none;
   color: white;
   padding-inline: 20px;
+  text-shadow: 2px 0px 5px rgba(0, 0, 0, 0.9);
 }
 .header__menuNav ul li a:hover {
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 3px;
   color: rgba(126, 83, 28, 0.795);
-  transition: all 1s;
+  transition: all 0.5s;
+  text-shadow: none;
 }
 
 #mobile {
@@ -465,16 +468,8 @@ body {
 /* TEXTO */
 /* BACKGROUND */
 @keyframes animacionImg {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@keyframes introH1 {
   0% {
-    transform: scale(0.4);
+    transform: scale(0.8);
     opacity: 0.3;
   }
   40% {
@@ -482,7 +477,6 @@ body {
     opacity: 0.55;
   }
   80% {
-    transform: scale(1.1);
     opacity: 0.8;
   }
   100% {
@@ -538,13 +532,13 @@ body {
   background-color: rgb(233, 215, 191);
   color: white;
   transform: scale(1.1);
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 .main__section__item1 p::first-letter {
   font-size: 30px;
 }
 .main__section__item2 {
-  animation: animacionImg 1s linear;
+  animation: animacionImg 0.5s linear;
 }
 .main__section__item2 img {
   width: 600px;
@@ -553,13 +547,14 @@ body {
 }
 .main__section__item2 img:hover {
   transform: scale(1.1);
-  transition: all 1s;
+  transition: all 0.4s;
 }
 
 .mainH1 {
   border-radius: 5px;
   margin: 40px 20px;
   padding: 10px;
+  animation: introH1 0.5s linear;
 }
 .mainH1 h1 {
   font-weight: bold;
@@ -575,16 +570,8 @@ body {
 
 /* Section para desktop y mobile */
 @keyframes animacionImg {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@keyframes introH1 {
   0% {
-    transform: scale(0.4);
+    transform: scale(0.8);
     opacity: 0.3;
   }
   40% {
@@ -592,7 +579,6 @@ body {
     opacity: 0.55;
   }
   80% {
-    transform: scale(1.1);
     opacity: 0.8;
   }
   100% {
@@ -636,7 +622,7 @@ body {
   background-color: rgb(233, 215, 191);
   color: white;
   transform: scale(1.1);
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 .section__item p {
   float: right;
@@ -675,7 +661,7 @@ body {
 .section-table tr:hover {
   background-color: rgba(238, 166, 59, 0.7);
   transform: scale(1.1);
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 .section-table td {
   background-color: rgba(233, 215, 191, 0.5);
@@ -777,7 +763,7 @@ body {
 /* HIPERVINCULOS */
 /* ESTILOS PARA VISTA DESKTOP <1200px */
 .header {
-  margin: auto 30px;
+  margin: 20px 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -793,10 +779,11 @@ body {
   letter-spacing: 5px;
   text-decoration: none;
   color: white;
+  text-shadow: 2px 0px 5px rgba(0, 0, 0, 0.4);
 }
 .header__logo h2 a:hover {
   letter-spacing: 3px;
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 .header__menuNav {
   flex-grow: 2;
@@ -811,12 +798,14 @@ body {
   text-decoration: none;
   color: white;
   padding-inline: 20px;
+  text-shadow: 2px 0px 5px rgba(0, 0, 0, 0.9);
 }
 .header__menuNav ul li a:hover {
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 3px;
   color: rgba(126, 83, 28, 0.795);
-  transition: all 1s;
+  transition: all 0.5s;
+  text-shadow: none;
 }
 
 #mobile {
@@ -830,16 +819,8 @@ body {
 /* TEXTO */
 /* BACKGROUND */
 @keyframes animacionImg {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@keyframes introH1 {
   0% {
-    transform: scale(0.4);
+    transform: scale(0.8);
     opacity: 0.3;
   }
   40% {
@@ -847,7 +828,6 @@ body {
     opacity: 0.55;
   }
   80% {
-    transform: scale(1.1);
     opacity: 0.8;
   }
   100% {
@@ -903,13 +883,13 @@ body {
   background-color: rgb(233, 215, 191);
   color: white;
   transform: scale(1.1);
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 .main__section__item1 p::first-letter {
   font-size: 30px;
 }
 .main__section__item2 {
-  animation: animacionImg 1s linear;
+  animation: animacionImg 0.5s linear;
 }
 .main__section__item2 img {
   width: 600px;
@@ -918,13 +898,14 @@ body {
 }
 .main__section__item2 img:hover {
   transform: scale(1.1);
-  transition: all 1s;
+  transition: all 0.4s;
 }
 
 .mainH1 {
   border-radius: 5px;
   margin: 40px 20px;
   padding: 10px;
+  animation: introH1 0.5s linear;
 }
 .mainH1 h1 {
   font-weight: bold;
@@ -939,16 +920,8 @@ body {
 }
 
 @keyframes animacionImg {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@keyframes introH1 {
   0% {
-    transform: scale(0.4);
+    transform: scale(0.8);
     opacity: 0.3;
   }
   40% {
@@ -956,7 +929,6 @@ body {
     opacity: 0.55;
   }
   80% {
-    transform: scale(1.1);
     opacity: 0.8;
   }
   100% {
@@ -1000,7 +972,7 @@ body {
   background-color: rgb(233, 215, 191);
   color: white;
   transform: scale(1.1);
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 .section__item p {
   float: right;
@@ -1039,7 +1011,7 @@ body {
 .section-table tr:hover {
   background-color: rgba(238, 166, 59, 0.7);
   transform: scale(1.1);
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 .section-table td {
   background-color: rgba(233, 215, 191, 0.5);
@@ -1254,16 +1226,8 @@ body {
 
 /* Animaciones */
 @keyframes animacionImg {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@keyframes introH1 {
   0% {
-    transform: scale(0.4);
+    transform: scale(0.8);
     opacity: 0.3;
   }
   40% {
@@ -1271,7 +1235,6 @@ body {
     opacity: 0.55;
   }
   80% {
-    transform: scale(1.1);
     opacity: 0.8;
   }
   100% {
