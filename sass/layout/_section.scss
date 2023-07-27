@@ -67,3 +67,38 @@
         max-width: 300px;
         padding: 0;
     }
+
+
+    /* SECCION DE NOVEDADES Y PROMOCIONES */
+
+    .newProm {
+        @include styleNewProm;
+        &:hover {
+            opacity: 1;
+        }
+        &__text {
+            label {
+                span {
+                    font-weight: bold;
+                    letter-spacing: 2px;
+                    text-shadow: 2px 0px 5px rgba(0, 0, 0);
+                    font-size: 110%;
+                }
+            }
+            input {
+                margin-bottom: 8px;
+            }
+        }
+        &__redesSoc {
+            padding-bottom: 10px;
+        }
+        &__img a {
+            padding-left: 20px;
+            img {
+                width: 40px;
+            }
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }

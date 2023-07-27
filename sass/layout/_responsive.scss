@@ -52,6 +52,21 @@
             max-width: 300px !important;
         }
     }
+    .newProm {
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+        padding: 10px;
+        opacity: 1;
+        &__text {
+            label {
+                padding-bottom: 15px;
+            }
+        }
+        &__img {
+            padding-top: 15px;
+        }
+    }
 }
 
 /* Tablet */
