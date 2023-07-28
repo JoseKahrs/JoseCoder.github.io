@@ -71,6 +71,16 @@
         opacity: 1 !important;
         width: 45%;
     }
+    .gridcontenedor {
+        &__item {
+            img {
+                width: 175px;
+            }
+            .mobileNone {
+                display: none;
+            }
+        }
+    }
 }
 
 /* Tablet */

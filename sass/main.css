@@ -1188,6 +1188,12 @@ body {
     opacity: 1 !important;
     width: 45%;
   }
+  .gridcontenedor__item img {
+    width: 175px;
+  }
+  .gridcontenedor__item .mobileNone {
+    display: none;
+  }
 }
 /* Tablet */
 @media (min-width: 600px) and (max-width: 1024px) {
