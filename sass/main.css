@@ -1268,7 +1268,7 @@ body {
   }
   #grillaId {
     opacity: 1 !important;
-    width: 45%;
+    width: 30% !important;
   }
 }
 /* Grid para catalogo de img */
