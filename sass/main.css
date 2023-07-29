@@ -519,6 +519,10 @@ body {
   justify-content: center;
   align-items: center;
 }
+.main__section:hover {
+  background-color: rgba(143, 121, 94, 0.7);
+  transition: all 0.5s;
+}
 .main__section__form fieldset {
   border: none;
 }
@@ -616,6 +620,10 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: row-reverse;
+}
+.section:hover {
+  background-color: rgba(143, 121, 94, 0.7);
+  transition: all 0.5s;
 }
 .section__item h2 {
   letter-spacing: 3px;
@@ -882,6 +890,10 @@ body {
   justify-content: center;
   align-items: center;
 }
+.main__section:hover {
+  background-color: rgba(143, 121, 94, 0.7);
+  transition: all 0.5s;
+}
 .main__section__form fieldset {
   border: none;
 }
@@ -978,6 +990,10 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: row-reverse;
+}
+.section:hover {
+  background-color: rgba(143, 121, 94, 0.7);
+  transition: all 0.5s;
 }
 .section__item h2 {
   letter-spacing: 3px;

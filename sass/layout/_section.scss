@@ -4,6 +4,10 @@
     background: linear-gradient(270deg, rgba(143,121,94,0.5) 40%,rgba(223, 205, 180, 0));
     box-shadow: 5px 4px 15px 0px rgba(0, 0, 0, 0.5);
     @include styleSection;
+    &:hover {
+        background-color: rgba(143,121,94,0.7);
+        transition: all 0.5s;
+    }
     &__item {
         h2 {
             @include titularesSection;
