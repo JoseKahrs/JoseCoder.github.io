@@ -556,6 +556,9 @@ body {
   transform: scale(1.1);
   transition: all 0.3s;
 }
+.main__section__item1 a:hover:active {
+  transform: scale(1);
+}
 .main__section__item1 p::first-letter {
   font-size: 30px;
 }
@@ -588,6 +591,10 @@ body {
 .mainH1 h1::first-letter {
   font-size: 50px;
   color: rgb(233, 215, 191);
+}
+.mainH1 h1:hover {
+  text-shadow: 2px 0px 3px rgb(0, 0, 0);
+  transition: all 0.5s;
 }
 
 /* Section para desktop y mobile */
@@ -649,6 +656,9 @@ body {
   color: white;
   transform: scale(1.1);
   transition: all 0.3s;
+}
+.section__item a:hover:active {
+  transform: scale(1);
 }
 .section__item p {
   float: right;
@@ -927,6 +937,9 @@ body {
   transform: scale(1.1);
   transition: all 0.3s;
 }
+.main__section__item1 a:hover:active {
+  transform: scale(1);
+}
 .main__section__item1 p::first-letter {
   font-size: 30px;
 }
@@ -959,6 +972,10 @@ body {
 .mainH1 h1::first-letter {
   font-size: 50px;
   color: rgb(233, 215, 191);
+}
+.mainH1 h1:hover {
+  text-shadow: 2px 0px 3px rgb(0, 0, 0);
+  transition: all 0.5s;
 }
 
 @keyframes animacionImg {
@@ -1019,6 +1036,9 @@ body {
   color: white;
   transform: scale(1.1);
   transition: all 0.3s;
+}
+.section__item a:hover:active {
+  transform: scale(1);
 }
 .section__item p {
   float: right;
@@ -1317,4 +1337,8 @@ body {
 }
 .menuGrilla #grillaId:hover .titulo a {
   color: white;
+}
+.menuGrilla #grillaId:hover:active {
+  transform: scale(1);
+  transition: all 0.5;
 }/*# sourceMappingURL=main.css.map */

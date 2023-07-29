@@ -66,5 +66,9 @@
             font-size: 50px;
             color: $colorTitulo;
         }
+        &:hover {
+            text-shadow: 2px 0px 3px rgba(0, 0, 0);
+            transition: all 0.5s;
+        }
     }
 }
