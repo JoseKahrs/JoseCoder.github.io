@@ -62,13 +62,16 @@
         letter-spacing: 3px;
         margin-left: 50px;
         text-shadow: 2px 0px 5px rgba(0, 0, 0, 0.7);
-        &::first-letter {
-            font-size: 50px;
-            color: $colorTitulo;
+        span {
+            font-size: 150%;
+            text-shadow: 2px 0px 5px rgba(0, 0, 0);
         }
         &:hover {
             text-shadow: 2px 0px 3px rgba(0, 0, 0);
             transition: all 0.5s;
+            span {
+                text-shadow: 2px 0px 3px rgba(0, 0, 0);
+            }
         }
     }
 }
