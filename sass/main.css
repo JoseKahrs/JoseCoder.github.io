@@ -436,7 +436,7 @@ body {
   align-self: baseline;
 }
 .header__logo h2 a {
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   text-decoration: none;
   color: white;
   text-shadow: 2px 0px 5px rgba(0, 0, 0, 0.4);
@@ -818,7 +818,7 @@ body {
   align-self: baseline;
 }
 .header__logo h2 a {
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   text-decoration: none;
   color: white;
   text-shadow: 2px 0px 5px rgba(0, 0, 0, 0.4);
@@ -1163,6 +1163,50 @@ body {
   padding-right: 20px;
 }
 
+.contenedorArt {
+  margin: 40px 20px;
+  padding: 10px;
+  display: flex;
+  gap: 15px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contenedorArt__item {
+  background: linear-gradient(270deg, rgba(143, 121, 94, 0.5) 40%, rgba(223, 205, 180, 0));
+  box-shadow: 5px 4px 15px 0px rgba(0, 0, 0, 0.5);
+  border: transparent;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  max-width: 500px;
+}
+.contenedorArt__item__img img {
+  width: 225px;
+  height: auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+.contenedorArt__item__txt h5 {
+  font-size: 200%;
+  color: rgb(233, 215, 191);
+}
+.contenedorArt__item__txt p {
+  text-indent: 0px;
+  color: white;
+  padding-inline: 15px;
+}
+.contenedorArt__item:hover {
+  background-color: rgba(172, 147, 113, 0.7);
+  transform: translateY(-25px);
+  transition: all 0.3s;
+}
+.contenedorArt__item:hover img {
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+
 /* Mobile */
 @media (min-width: 0px) and (max-width: 600px) {
   html {
@@ -1230,6 +1274,23 @@ body {
   .gridcontenedor__item .mobileNone {
     display: none;
   }
+  .contenedorArt {
+    margin: 30px 5px;
+    gap: 5px;
+    flex-direction: column;
+  }
+  .contenedorArt__item {
+    max-width: 250px;
+  }
+  .contenedorArt__item__img img {
+    width: 120px !important;
+  }
+  .contenedorArt__txt h5 {
+    font-size: 100%;
+  }
+  .contenedorArt__txt p {
+    padding-inline: 10px;
+  }
 }
 /* Tablet */
 @media (min-width: 600px) and (max-width: 1024px) {
@@ -1269,6 +1330,23 @@ body {
   #grillaId {
     opacity: 1 !important;
     width: 30% !important;
+  }
+  .contenedorArt {
+    margin: 30px 5px;
+    gap: 5px;
+    flex-direction: column;
+  }
+  .contenedorArt__item {
+    max-width: 250px;
+  }
+  .contenedorArt__item__img img {
+    width: 250px;
+  }
+  .contenedorArt__txt h5 {
+    font-size: 100%;
+  }
+  .contenedorArt__txt p {
+    padding-inline: 10px;
   }
 }
 /* Grid para catalogo de img */
@@ -1352,7 +1430,6 @@ body {
   margin: 40px 20px;
   padding: 10px;
   display: flex;
-  flex-direction: row;
   gap: 15px;
   justify-content: space-evenly;
   align-items: center;
@@ -1379,6 +1456,7 @@ body {
   color: rgb(233, 215, 191);
 }
 .contenedorArt__item__txt p {
+  text-indent: 0px;
   color: white;
   padding-inline: 15px;
 }

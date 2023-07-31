@@ -3,6 +3,7 @@
 @import "../layout/section";
 @import "../layout/contacto";
 @import "../layout/footer";
+@import "../layout/article";
 
 /* Mobile */
 @media (min-width:0px) and (max-width:600px) {
@@ -81,6 +82,27 @@
             }
         }
     }
+    .contenedorArt {
+        margin: 30px 5px;
+        gap: 5px;
+        flex-direction: column;
+        &__item {
+            max-width: 250px;
+            &__img {
+                img {
+                    width: 120px !important;
+                }
+            }
+        }
+        &__txt {
+            h5 {
+                font-size: 100%;
+            }
+            p {
+                padding-inline: 10px;
+            }
+        }
+    }
    }
 
 /* Tablet */
@@ -125,5 +147,26 @@
     #grillaId {
         opacity: 1 !important;
         width: 30% !important;
+    }
+    .contenedorArt {
+        margin: 30px 5px;
+        gap: 5px;
+        flex-direction: column;
+        &__item {
+            max-width: 250px;
+            &__img {
+                img {
+                    width: 250px;
+                }
+            }
+        }
+        &__txt {
+            h5 {
+                font-size: 100%;
+            }
+            p {
+                padding-inline: 10px;
+            }
+        }
     }
 }
