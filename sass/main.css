@@ -1455,6 +1455,8 @@ body {
   border-radius: 5px;
   padding: 0;
   box-shadow: -5px 4px 15px 0px rgba(0, 0, 0, 0.5);
+  transform: scale(1);
+  transition: all 0.5s;
 }
 .menuGrilla #grillaId *.titulo a {
   text-decoration: none;
