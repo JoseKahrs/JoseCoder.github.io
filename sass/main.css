@@ -1250,6 +1250,9 @@ body {
   .mainH1 h1 {
     margin-left: 15px;
   }
+  .mainH1 h1 span {
+    font-size: 110%;
+  }
   #mobile {
     display: inline-block !important;
   }
@@ -1353,6 +1356,9 @@ body {
   }
   .contenedorArt__txt p {
     padding-inline: 10px;
+  }
+  .mainH1 h1 span {
+    font-size: 120%;
   }
 }
 /* Grid para catalogo de img */
