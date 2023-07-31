@@ -87,3 +87,13 @@
     }
     
 }
+
+@mixin nosotros {
+    margin: 40px 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+}

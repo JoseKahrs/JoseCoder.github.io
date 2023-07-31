@@ -1,0 +1,41 @@
+.contenedorArt {
+    @include nosotros;
+    &__item {
+        background: linear-gradient(270deg, rgba(143,121,94,0.5) 40%,rgba(223, 205, 180, 0));
+        box-shadow: 5px 4px 15px 0px rgba(0, 0, 0, 0.5);
+        border: transparent;
+        border-radius: 25px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        max-width: 500px;
+        &__img {
+            img {
+            width: 225px;
+            height: auto;
+            padding: 5px;
+            border-radius: 25px;
+            }
+        }
+        &__txt {
+            h5 {
+                font-size: 200%;
+                color: $colorTitulo;
+            }
+            p {
+                color: white;
+                padding-inline: 15px;
+            }
+        }
+        &:hover {
+            background-color: rgba(172, 147, 113, 0.7);
+            transform: translateY(-25px);
+            transition: all 0.3s;
+            img {
+                transform: scale(1.2);
+                transition: all 0.5s;
+            }
+        }
+    }
+}
