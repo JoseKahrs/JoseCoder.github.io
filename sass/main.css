@@ -421,6 +421,7 @@ body {
 /* SECCIONES */
 /* TITULARES */
 /* HIPERVINCULOS */
+/* WPP BOTON */
 /* ESTILOS PARA VISTA DESKTOP <1200px */
 .header {
   margin: 20px 30px;
@@ -508,6 +509,7 @@ body {
 /* SECCIONES */
 /* TITULARES */
 /* HIPERVINCULOS */
+/* WPP BOTON */
 .main__section {
   background: linear-gradient(90deg, rgba(143, 121, 94, 0.5) 40%, rgba(223, 205, 180, 0));
   transition: all 0.5s;
@@ -756,7 +758,11 @@ body {
   margin-bottom: 8px;
 }
 .newProm__redesSoc {
+  text-align: center;
   padding-bottom: 10px;
+}
+.newProm__img {
+  text-align: center;
 }
 .newProm__img a {
   padding-left: 20px;
@@ -766,6 +772,32 @@ body {
 }
 .newProm__img a:hover {
   transform: scale(1.1);
+}
+
+/* BOTON FLOTANTE WPP */
+.wppBoton {
+  background-color: green;
+  border-radius: 50px;
+  position: fixed;
+  float: right;
+  right: 30px;
+  bottom: 30px;
+  opacity: 0.6;
+  transition: all 0.5s;
+}
+.wppBoton__icono {
+  padding: 10px;
+}
+.wppBoton__icono img {
+  width: 40px;
+  height: auto;
+}
+.wppBoton:hover {
+  opacity: 1;
+  transform: scale(1.2) rotate(360deg);
+}
+.wppBoton:hover:active {
+  transform: scale(0.8);
 }
 
 /* Footer para desktop y mobile */
@@ -823,6 +855,7 @@ body {
 /* SECCIONES */
 /* TITULARES */
 /* HIPERVINCULOS */
+/* WPP BOTON */
 /* ESTILOS PARA VISTA DESKTOP <1200px */
 .header {
   margin: 20px 30px;
@@ -909,6 +942,7 @@ body {
 /* SECCIONES */
 /* TITULARES */
 /* HIPERVINCULOS */
+/* WPP BOTON */
 .main__section {
   background: linear-gradient(90deg, rgba(143, 121, 94, 0.5) 40%, rgba(223, 205, 180, 0));
   transition: all 0.5s;
@@ -1156,7 +1190,11 @@ body {
   margin-bottom: 8px;
 }
 .newProm__redesSoc {
+  text-align: center;
   padding-bottom: 10px;
+}
+.newProm__img {
+  text-align: center;
 }
 .newProm__img a {
   padding-left: 20px;
@@ -1166,6 +1204,32 @@ body {
 }
 .newProm__img a:hover {
   transform: scale(1.1);
+}
+
+/* BOTON FLOTANTE WPP */
+.wppBoton {
+  background-color: green;
+  border-radius: 50px;
+  position: fixed;
+  float: right;
+  right: 30px;
+  bottom: 30px;
+  opacity: 0.6;
+  transition: all 0.5s;
+}
+.wppBoton__icono {
+  padding: 10px;
+}
+.wppBoton__icono img {
+  width: 40px;
+  height: auto;
+}
+.wppBoton:hover {
+  opacity: 1;
+  transform: scale(1.2) rotate(360deg);
+}
+.wppBoton:hover:active {
+  transform: scale(0.8);
 }
 
 .footer {
@@ -1335,6 +1399,10 @@ body {
   .contenedorArt__txt p {
     padding-inline: 10px;
   }
+  .wppBoton__icono img {
+    width: 25px;
+    height: auto;
+  }
 }
 /* Tablet */
 @media (min-width: 600px) and (max-width: 1024px) {
@@ -1445,6 +1513,7 @@ body {
 /* SECCIONES */
 /* TITULARES */
 /* HIPERVINCULOS */
+/* WPP BOTON */
 /* Menu grilla Index */
 .menuGrilla {
   margin: 40px 20px;

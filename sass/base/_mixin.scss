@@ -112,3 +112,16 @@
     max-width: 500px;
     transition: all 0.5s;
 }
+
+/* WPP BOTON */
+
+@mixin wppBoton {
+    background-color: green;
+    border-radius: 50px;
+    position: fixed;
+    float: right;
+    right: 30px;
+    bottom: 30px;
+    opacity: 0.6;
+    transition: all 0.5s;
+}
